@@ -1,0 +1,41 @@
+REPORTES DE VENTAS EN KEEP CONTROL
+
+El módulo de reportes de Keep Control proporciona a los administradores de tiendas de ropa información detallada y actualizada sobre el rendimiento de las ventas. Los reportes son fundamentales para la toma de decisiones estratégicas y operativas.
+
+TIPOS DE REPORTES
+
+Reporte diario de ventas: Generado al cierre de cada jornada, incluye el total de ventas del día, número de transacciones, ticket promedio, productos más vendidos, métodos de pago utilizados, y comparación con el mismo día de la semana anterior. Este reporte es utilizado por los supervisores de tienda para evaluar el desempeño diario y detectar anomalías.
+
+Reporte semanal de ventas: Consolidado de la semana (lunes a domingo), incluye ventas por día, tendencias, productos top 10 de la semana, rendimiento por categoría, y análisis de margen bruto. Incluye gráficos comparativos con la semana anterior y la misma semana del año anterior.
+
+Reporte mensual de ventas: Reporte ejecutivo con análisis completo del mes: ventas totales, cumplimiento de metas mensuales, rentabilidad por línea de producto, productos más y menos vendidos, análisis de devoluciones, comportamiento por sucursal (si aplica), y proyecciones para el mes siguiente.
+
+Reporte por temporada: Específico para tiendas de ropa, analiza el desempeño de colecciones de temporada (primavera-verano, otoño-invierno), incluyendo rotación de colección, productos liquidados con descuento, y margen final de la temporada.
+
+Reporte comparativo anual: Compara mes a mes las ventas del año actual contra el año anterior, identificando tendencias de crecimiento, estacionalidad, y eventos que impactaron las ventas.
+
+MÉTRICAS INCLUIDAS EN LOS REPORTES
+
+Ventas netas: Total de ventas después de descuentos y devoluciones. Es la métrica principal del reporte.
+
+Ticket promedio: Valor promedio gastado por cliente por transacción. Un ticket promedio alto indica ventas exitosas o productos de mayor valor. Se calcula como: Ventas totales / Número de transacciones.
+
+Transacciones por día: Número de ventas realizadas en el período. Útil para medir tráfico en tienda.
+
+Margen bruto: Diferencia entre el precio de venta y el costo del producto, expresada como porcentaje. Para ropa, el margen bruto ideal está entre el 50% y el 65%.
+
+Productos más vendidos por unidades: Ranking de productos por cantidad vendida. Ayuda a identificar los artículos más populares.
+
+Productos más vendidos por ingresos: Ranking de productos por valor total vendido. Puede diferir del ranking por unidades.
+
+Tasa de conversión: Porcentaje de visitantes que realizan una compra. Se calcula como: Transacciones / Total de visitantes.
+
+Devoluciones como porcentaje de ventas: Indica la calidad de los productos y la precisión en la selección.
+
+INTERPRETACIÓN DE RESULTADOS
+
+Los reportes incluyen indicadores visuales: semáforos (verde: meta cumplida, amarillo: cerca de meta, rojo: por debajo de meta), tendencias (flechas hacia arriba, estable, hacia abajo), y alertas cuando una métrica se desvía significativamente del promedio histórico.
+
+EXPORTACIÓN DE REPORTES
+
+Los reportes se pueden exportar en múltiples formatos: PDF (para presentaciones ejecutivas), Excel (para análisis detallado), CSV (para procesamiento externo), y visualización directa en pantalla. El sistema permite programar la generación y envío automático de reportes por correo electrónico a destinatarios configurados.

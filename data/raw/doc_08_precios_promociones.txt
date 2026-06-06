@@ -1,0 +1,45 @@
+PRECIOS Y PROMOCIONES EN KEEP CONTROL
+
+El módulo de precios y promociones de Keep Control permite gestionar estrategias de precios dinámicas para tiendas de ropa, adaptándose a las temporadas, el comportamiento de ventas y las necesidades del negocio.
+
+ESTRATEGIAS DE PRECIOS
+
+Precio base: Precio regular del producto, establecido al momento de crear el producto en el sistema. Sirve como referencia para todos los cálculos de descuento y margen.
+
+Precio por temporada: Precio ajustado según la temporada del año. Las colecciones de nueva temporada suelen tener precios más altos, mientras que las colecciones de temporada anterior pueden tener descuentos automáticos.
+
+Precio por canal: Precio diferenciado según el canal de venta: tienda física, tienda online, venta mayorista. Cada canal puede tener su propia configuración de precios.
+
+Precio especial por cliente: Descuentos o precios preferenciales para clientes VIP, miembros del programa de fidelidad, o empleados. Se configuran en el perfil del cliente y se aplican automáticamente en el registro de ventas.
+
+TIPOS DE DESCUENTOS
+
+Descuento por porcentaje: Reducción de un porcentaje sobre el precio base. Ejemplo: 20% de descuento en toda la colección de verano.
+
+Descuento por monto fijo: Reducción de un valor específico. Ejemplo: $50.000 de descuento en compras superiores a $300.000.
+
+Descuento por volumen: Descuento progresivo según la cantidad de unidades compradas. Ejemplo: 10% al comprar 3 unidades, 15% al comprar 5 unidades.
+
+Descuento por paquete: Precio especial al comprar un conjunto de productos. Ejemplo: "Compra 2 pantalones y el tercero es gratis" o "Conjunto de camisa y pantalón con 25% de descuento".
+
+Cupones de descuento: Códigos promocionales con reglas configurables: monto mínimo de compra, vigencia, productos elegibles, límite de usos por cliente.
+
+TEMPORADAS DE PROMOCIONES
+
+Keep Control permite configurar temporadas promocionales con fechas de inicio y fin:
+
+Temporada alta (diciembre, junio, enero): Descuentos moderados (10-20%), enfoque en combos y paquetes navideños.
+
+Cambio de temporada (febrero, agosto): Liquidación de colección saliente con descuentos del 30-50% para liberar espacio para la nueva colección.
+
+Black Friday y Cyber Monday (noviembre): Descuentos agresivos del 40-70% en productos seleccionados.
+
+Día de la Madre / Día del Padre: Promociones específicas para las fechas comerciales, descuentos del 15-25%.
+
+Temporada baja (marzo, septiembre, octubre): Promociones de fidelización, descuentos para miembros.
+
+GESTIÓN DE PROMOCIONES
+
+Cada promoción se crea en el sistema con: nombre, descripción, tipo, valor del descuento, fechas de vigencia, productos o categorías elegibles, condiciones (monto mínimo, cliente específico, medio de pago), y presupuesto máximo de descuento. El sistema valida que las promociones no se superpongan de manera conflictiva y alerta si una promoción reduciría el margen por debajo del mínimo aceptable.
+
+El módulo también permite pausar o cancelar promociones activas y analizar el rendimiento histórico de cada promoción para determinar su efectividad en términos de incremento de ventas y rentabilidad.

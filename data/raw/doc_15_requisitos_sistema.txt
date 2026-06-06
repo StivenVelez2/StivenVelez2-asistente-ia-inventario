@@ -1,0 +1,57 @@
+REQUISITOS DEL SISTEMA KEEP CONTROL
+
+Este documento describe los requisitos funcionales y no funcionales del sistema Keep Control para la gestión de inventario y ventas en tiendas de ropa.
+
+REQUISITOS FUNCIONALES
+
+RF01 - Gestión de productos: El sistema debe permitir crear, modificar y desactivar productos con sus variantes (talla, color), incluyendo nombre, descripción, SKU, código de barras, categoría, proveedor, costo y precio de venta.
+
+RF02 - Control de inventario: El sistema debe gestionar el stock por producto y variante, actualizando automáticamente las cantidades al registrar ventas, devoluciones, ajustes y transferencias.
+
+RF03 - Registro de ventas: El sistema debe permitir el registro de ventas con selección de productos, cantidades, descuentos, método de pago y generación de factura.
+
+RF04 - Gestión de devoluciones: El sistema debe gestionar devoluciones con verificación de elegibilidad, registro de motivos y actualización automática de inventario.
+
+RF05 - Facturación electrónica: El sistema debe generar facturas electrónicas conformes a los requisitos de la DIAN, incluyendo notas crédito y notas débito.
+
+RF06 - Reportes de ventas: El sistema debe generar reportes diarios, semanales, mensuales y personalizables de ventas con indicadores clave.
+
+RF07 - Gestión de usuarios: El sistema debe permitir la creación, modificación y desactivación de usuarios con asignación de roles y permisos.
+
+RF08 - Control de acceso: El sistema debe implementar autenticación segura y control de acceso basado en roles (RBAC).
+
+RF09 - Búsqueda de productos: El sistema debe ofrecer búsqueda avanzada de productos por múltiples criterios y búsqueda full-text.
+
+RF10 - Alertas de stock: El sistema debe generar alertas automáticas de stock bajo, sobre stock y productos sin movimiento.
+
+RF11 - Gestión de promociones: El sistema debe permitir crear y gestionar promociones con descuentos por porcentaje, monto fijo, volumen y paquetes.
+
+RF12 - Historial de cambios: El sistema debe registrar todos los cambios en inventario con trazabilidad completa.
+
+RF13 - Auditoría: El sistema debe registrar logs de actividad de todos los usuarios para fines de auditoría.
+
+RF14 - Gestión de clientes: El sistema debe mantener un registro de clientes con historial de compras y preferencias.
+
+RF15 - Múltiples sucursales: El sistema debe soportar la gestión de múltiples sucursales con inventarios independientes y transferencias entre ellas.
+
+RF16 - Dashboard de KPIs: El sistema debe mostrar indicadores clave de desempeño en tiempo real.
+
+RF17 - Exportación de datos: El sistema debe permitir exportar reportes y datos a formatos PDF, Excel y CSV.
+
+RF18 - Notificaciones: El sistema debe enviar notificaciones por correo electrónico sobre alertas de inventario y reportes programados.
+
+RF19 - Backup y recuperación: El sistema debe incluir funcionalidades de backup automático y recuperación de datos.
+
+REQUISITOS NO FUNCIONALES
+
+Rendimiento: El sistema debe responder a las consultas de búsqueda en menos de 2 segundos. Las transacciones de venta deben procesarse en menos de 500 milisegundos. El sistema debe soportar al menos 50 usuarios concurrentes sin degradación del rendimiento. Los reportes deben generarse en menos de 5 segundos para períodos de hasta 1 año.
+
+Seguridad: Todas las contraseñas deben almacenarse con hash (bcrypt o similar). Las comunicaciones deben cifrarse mediante HTTPS/TLS. El sistema debe implementar protección contra inyección SQL, XSS y CSRF. Los datos sensibles de clientes deben cifrarse en reposo.
+
+Fiabilidad: El sistema debe tener una disponibilidad del 99.5% (tiempo de inactividad máximo de 3.6 días al año). Las transacciones deben ser atómicas (todo o nada) para garantizar la integridad de los datos. El sistema debe realizar backups automáticos diarios.
+
+Mantenibilidad: El código debe seguir estándares de codificación definidos. La documentación técnica debe actualizarse con cada cambio significativo. El sistema debe permitir actualizaciones sin pérdida de datos.
+
+Usabilidad: La interfaz debe ser intuitiva y requerir capacitación mínima (máximo 2 horas para funciones básicas). Los formularios deben incluir validación en tiempo real. Los mensajes de error deben ser descriptivos y en español.
+
+Portabilidad: La aplicación debe ser accesible desde navegadores web modernos (Chrome, Firefox, Edge, Safari). Debe ser responsive para uso en tablets y dispositivos móviles.

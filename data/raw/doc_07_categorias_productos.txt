@@ -1,0 +1,40 @@
+CATEGORÍAS DE PRODUCTOS EN KEEP CONTROL
+
+La taxonomía de productos en Keep Control está diseñada específicamente para tiendas de ropa, permitiendo una organización jerárquica que facilita la búsqueda, el reporting y la gestión de inventario. La estructura de categorización sigue el estándar del sector retail de moda.
+
+TAXONOMÍA DE PRODUCTOS
+
+Categoría principal: Nivel más alto de clasificación. Ejemplos: Ropa para Mujer, Ropa para Hombre, Ropa para Niños, Accesorios, Calzado.
+
+Subcategoría: División dentro de la categoría principal. Ejemplos dentro de Ropa para Mujer: Blusas, Vestidos, Pantalones, Faldas, Chaquetas, Ropa Interior, Ropa Deportiva. Ejemplos dentro de Ropa para Hombre: Camisas, Pantalones, Chaquetas, Trajes, Ropa Interior, Ropa Deportiva.
+
+Tipo de producto: Clasificación más específica dentro de la subcategoría. Ejemplo dentro de Vestidos: Vestido Casual, Vestido de Noche, Vestido de Playa, Vestido de Trabajo.
+
+Temporada: Clasificación estacional. Valores: Primavera-Verano, Otoño-Invierno, Toda Temporada. Esta clasificación es crucial para la gestión de colecciones y la planificación de inventario.
+
+GESTIÓN DE VARIANTES
+
+Cada producto en Keep Control puede tener múltiples variantes que se diferencian por:
+
+Talla: Sistema de tallas configurable según el tipo de prenda y el mercado. Puede usar tallas numéricas (2, 4, 6, 8, 10, 12), tallas alfa (XS, S, M, L, XL, XXL), o tallas mixtas. El sistema permite tablas de equivalencia entre sistemas de tallas (US, EU, UK, COL).
+
+Color: Catálogo de colores con nombre comercial y código hexadecimal. Ejemplo: "Azul Marino (#000080)", "Rojo Pasión (#FF2400)", "Verde Esmeralda (#50C878)".
+
+Las variantes se gestionan como entidades independientes en el sistema, cada una con su propio SKU (Stock Keeping Unit), precio (puede variar por talla o color), stock individual, e historial de ventas propio.
+
+ESTRUCTURA DEL SKU
+
+El SKU en Keep Control sigue un formato estandarizado: CCC-SSS-TTT-CC-NNN, donde:
+- CCC: Código de categoría (3 caracteres, ej: MUJ, HOM, NIN)
+- SSS: Código de subcategoría (3 caracteres, ej: BLU, VES, PAN)
+- TTT: Código de tipo (3 caracteres, ej: CAS, NOC, DEP)
+- CC: Código de color (2 caracteres, ej: AZ, RJ, VE)
+- NNN: Número secuencial (3 dígitos, ej: 001, 002)
+
+Ejemplo: MUJ-VES-NOC-RJ-001 corresponde a un vestido de noche rojo para mujer.
+
+CATEGORIZACIÓN ADICIONAL
+
+Keep Control también soporta etiquetas y atributos adicionales para facilitar la búsqueda y segmentación: material (algodón, poliéster, lino, seda, denim), estilo (clásico, moderno, bohemio, deportivo, formal), ocasión (diario, trabajo, fiesta, deporte, playa), y proveedor (nombre del fabricante o distribuidor).
+
+La taxonomía completa permite generar reportes por cualquier nivel de la jerarquía y facilita la creación de colecciones y agrupaciones temporales para promociones y eventos especiales.

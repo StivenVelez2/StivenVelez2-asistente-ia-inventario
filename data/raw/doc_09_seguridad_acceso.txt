@@ -1,0 +1,31 @@
+SEGURIDAD Y CONTROL DE ACCESO EN KEEP CONTROL
+
+La seguridad de la información es fundamental en Keep Control, dado que maneja datos sensibles como información financiera, datos personales de clientes y registros de inventario. El sistema implementa un modelo de control de acceso basado en roles (RBAC) que garantiza que cada usuario tenga acceso solo a las funciones necesarias para su trabajo.
+
+MODELO DE ROLES
+
+Administrador del sistema: Acceso completo a todas las funcionalidades del sistema. Puede crear y modificar usuarios, configurar parámetros del sistema, ver todos los reportes, gestionar precios y promociones, acceder a logs de auditoría, y realizar ajustes de inventario sin restricciones.
+
+Gerente de tienda: Acceso a gestión de inventario (consultar, ajustar, transferir), reportes de ventas e inventario, gestión de promociones (crear y modificar), consulta de auditoría (solo lectura), y gestión de usuarios de su sucursal (solo consulta).
+
+Vendedor: Acceso limitado a registro de ventas, consulta de inventario (solo lectura), consulta de precios, registro de devoluciones (requiere autorización para reembolsos), y consulta de su propio historial de ventas.
+
+Supervisor de bodega: Acceso a recepción de mercancía, ajustes de inventario (con aprobación de gerente), gestión de transferencias entre sucursales, y reportes de stock.
+
+Auditor: Acceso de solo lectura a logs de auditoría, reportes financieros, historial de cambios, y transacciones.
+
+AUTENTICACIÓN
+
+Keep Control implementa autenticación segura con: contraseña con requisitos de complejidad (mínimo 8 caracteres, mayúsculas, minúsculas, números y caracteres especiales), bloqueo temporal después de 5 intentos fallidos, cambio obligatorio de contraseña cada 90 días, sesión con timeout por inactividad (30 minutos configurables), y autenticación de doble factor (opcional) mediante código SMS o aplicación de autenticación.
+
+PERMISOS POR MÓDULO
+
+Los permisos se asignan a nivel de módulo y operación: módulo de ventas (crear, anular, consultar), módulo de inventario (consultar, crear ajuste, aprobar ajuste, transferir), módulo de facturación (emitir, anular, reimprimir), módulo de reportes (consultar, exportar, programar envío), módulo de configuración (modificar parámetros, gestionar impuestos), y módulo de usuarios (crear, modificar, desactivar, asignar roles).
+
+AUDITORÍA DE SESIONES
+
+El sistema registra cada inicio y cierre de sesión con: usuario, fecha y hora, dirección IP, dispositivo/navegador utilizado, y resultados del intento de autenticación (éxito/fallo). Los administradores pueden consultar en cualquier momento la lista de sesiones activas y forzar el cierre de sesiones sospechosas.
+
+BUENAS PRÁCTICAS DE SEGURIDAD
+
+Se recomienda a los administradores: revisar periódicamente los permisos asignados a cada rol, desactivar cuentas de empleados que ya no trabajan en la tienda, no compartir contraseñas entre usuarios, utilizar autenticación de doble factor para cuentas administrativas, y revisar semanalmente los logs de actividad en busca de comportamientos anómalos.

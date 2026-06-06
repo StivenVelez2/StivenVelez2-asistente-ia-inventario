@@ -1,0 +1,39 @@
+HISTORIAL DE CAMBIOS EN INVENTARIO
+
+El módulo de historial de cambios de Keep Control proporciona una trazabilidad completa de todas las modificaciones realizadas en el inventario. Cada entrada, salida y ajuste queda registrado con detalle, permitiendo reconstruir el estado del inventario en cualquier momento del pasado.
+
+REGISTRO DE CAMBIOS
+
+El sistema registra automáticamente los siguientes tipos de cambios en el inventario:
+
+Entradas de inventario: Recepción de mercancía de proveedores, devoluciones de clientes que se reingresan al stock, transferencias recibidas de otras sucursales, ajustes positivos por sobrantes encontrados en conteo físico, y producción interna (si aplica).
+
+Salidas de inventario: Ventas a clientes, devoluciones a proveedores, transferencias enviadas a otras sucursales, ajustes negativos por faltantes en conteo físico, productos dados de baja por daño o pérdida, y productos obsoletos retirados del catálogo.
+
+Ajustes de inventario: Correcciones por diferencias entre inventario teórico y real (conteo físico), cambios en el estado del producto (nuevo, dañado, obsoleto), reclasificaciones de producto (cambio de categoría), y actualizaciones de costo unitario.
+
+DETALLE DEL REGISTRO
+
+Cada cambio en el inventario incluye: identificador único del cambio, fecha y hora exacta, usuario responsable, tipo de cambio (entrada, salida, ajuste), producto afectado (SKU, nombre, variante), cantidad anterior y cantidad nueva, ubicación (sucursal, bodega), referencia al documento asociado (factura, nota crédito, orden de compra, guía de remisión), motivo del cambio (texto libre seleccionable de catálogo de motivos), y observaciones adicionales.
+
+TRAZABILIDAD
+
+El sistema permite rastrear el historial completo de un producto desde que ingresa al inventario hasta que sale. Para cada producto se puede consultar:
+
+- Línea de tiempo visual con todos los movimientos del producto
+- Stock en cada momento del tiempo (reconstrucción histórica)
+- Quién realizó cada movimiento y desde qué terminal
+- Documentos asociados a cada movimiento
+- Costo del producto en cada momento (si aplica costo promedio ponderado)
+
+Esta trazabilidad es fundamental para auditorías internas y externas, resolución de disputas con clientes y proveedores, y análisis de mermas y pérdidas.
+
+QUIÉN HIZO QUÉ Y CUÁNDO
+
+El sistema mantiene registro de: creación del producto (usuario y fecha), primera entrada de inventario, últimas 10 modificaciones del producto, cambios de precio con valores anteriores y nuevos, cambios de proveedor, y desactivación o eliminación del producto del catálogo.
+
+Para cada acción, se muestra el nombre completo del usuario, su rol en el momento de la acción, y el terminal desde el cual se realizó.
+
+CONSULTA DEL HISTORIAL
+
+El historial se puede consultar mediante filtros: por producto (SKU o nombre), por rango de fechas, por tipo de cambio, por usuario, y por sucursal. Los resultados se pueden exportar a Excel o CSV para análisis externo. El sistema también permite generar reportes de trazabilidad para productos específicos, ideales para auditorías de calidad o investigación de discrepancias.

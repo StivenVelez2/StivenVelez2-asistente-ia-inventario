@@ -1,0 +1,43 @@
+AUDITORÍA EN KEEP CONTROL
+
+El módulo de auditoría de Keep Control registra toda actividad relevante en el sistema, proporcionando una trazabilidad completa de las acciones realizadas por cada usuario. Esto es fundamental para la seguridad, el cumplimiento normativo y la resolución de disputas.
+
+LOGS DE ACTIVIDAD
+
+El sistema registra automáticamente las siguientes categorías de eventos:
+
+Eventos de autenticación: Inicio de sesión exitoso, inicio de sesión fallido (con número de intentos), cierre de sesión, bloqueo de cuenta por intentos fallidos, y cambio de contraseña.
+
+Eventos de inventario: Creación de productos, modificación de precios, ajustes de stock (positivos y negativos), transferencias entre sucursales, recepción de mercancía de proveedores, y bajas de inventario por daño o pérdida.
+
+Eventos de ventas: Creación de ventas, anulación de ventas, devoluciones, notas crédito y notas débito.
+
+Eventos de usuarios: Creación de nuevos usuarios, modificación de roles y permisos, desactivación de cuentas, y cambios en perfiles de usuario.
+
+Eventos de configuración: Modificación de parámetros del sistema, cambios en tasas de impuestos, configuración de promociones, y cambios en políticas de seguridad.
+
+QUÉ SE REGISTRA
+
+Cada entrada de log contiene: timestamp preciso (fecha y hora con milisegundos), identificador del usuario que realizó la acción, tipo de evento (categoría y subcategoría), descripción detallada de la acción, valores anteriores y nuevos (para modificaciones), dirección IP desde donde se realizó la acción, y estado de la operación (éxito o error con código de error).
+
+CÓMO REVISAR LA AUDITORÍA
+
+El panel de auditoría en Keep Control permite:
+
+- Filtrar por fecha y hora (rango personalizado)
+- Filtrar por usuario (uno o varios)
+- Filtrar por tipo de evento
+- Filtrar por módulo (ventas, inventario, usuarios, etc.)
+- Buscar texto libre en la descripción del evento
+- Exportar resultados a CSV o Excel
+- Ver detalles expandidos de cada evento
+
+El panel incluye visualizaciones gráficas de la actividad por hora del día, por usuario, y por tipo de evento, facilitando la detección de patrones anómalos.
+
+RETENCIÓN DE REGISTROS
+
+La política de retención de Keep Control establece: logs de autenticación se conservan por 12 meses, logs de transacciones (ventas, facturación) se conservan por 5 años (requisito legal DIAN), logs de inventario se conservan por 3 años, logs de administración y configuración se conservan por 2 años, y logs de usuarios se conservan por 3 años después de la desactivación de la cuenta.
+
+COMPLIANCE
+
+Keep Control cumple con los requisitos de la Ley 1581 de 2012 de protección de datos personales en Colombia, la normativa de la DIAN para facturación electrónica, y las Normas Internacionales de Información Financiera (NIIF) para el registro de transacciones. El módulo de auditoría facilita la generación de reportes para entes de control y auditorías externas.

@@ -1,0 +1,36 @@
+GESTIÓN DE DEVOLUCIONES EN KEEP CONTROL
+
+Las devoluciones son una parte inevitable de la operación de cualquier tienda de ropa. El sistema Keep Control cuenta con un módulo específico para gestionar devoluciones de manera eficiente, minimizando el impacto en el inventario y manteniendo la satisfacción del cliente.
+
+POLÍTICA DE DEVOLUCIONES
+
+La política estándar para tiendas de ropa incluye: plazo máximo de 30 días calendario para devoluciones, presentación del comprobante de compra original, prendas sin uso y con etiquetas originales, y exclusión de ropa interior, trajes de baño y accesorios de higiene por razones sanitarias. Las devoluciones por defectos de fabricación se aceptan sin restricción de tiempo, sujetas a verificación por el personal autorizado.
+
+PROCESO DE GESTIÓN DE DEVOLUCIONES
+
+1. Recepción de la solicitud: El cliente se presenta en tienda con el producto y el comprobante de compra. El vendedor inicia el proceso en el sistema con la opción "Gestión de Devoluciones".
+
+2. Verificación de elegibilidad: El sistema verifica automáticamente que la compra esté dentro del plazo de devolución, que el producto no haya sido previamente devuelto y que corresponda a la tienda actual.
+
+3. Inspección del producto: El vendedor inspecciona físicamente la prenda para confirmar que está en condiciones óptimas (sin uso, etiquetas intactas). Si hay defectos de fabricación, se documenta con fotografías adjuntas al registro.
+
+4. Selección del motivo de devolución: El sistema presenta un catálogo de motivos: talla incorrecta, color no deseado, defecto de fabricación, cambio de opinión, producto incorrecto, o daño durante el transporte.
+
+5. Determinación del tipo de resolución: Cambio por otro producto (talla, color o modelo diferente), reembolso total (mismo método de pago original), o nota de crédito para compras futuras. El sistema sugiere la opción más conveniente según el caso.
+
+6. Registro y actualización de inventario: La devolución se registra en el sistema, se genera una nota de crédito o reembolso según corresponda, y el inventario se actualiza: si el producto está en condiciones óptimas, se reingresa al stock; si tiene defectos, se pasa a inventario de "productos dañados" para su gestión aparte.
+
+IMPACTO EN INVENTARIO
+
+Las devoluciones afectan el inventario de varias formas: aumentan el stock disponible del producto devuelto, pueden requerir ajustes de precio si el producto ya no está en temporada, y generan costos operativos de manipulación y reinspección. El sistema Keep Control lleva un registro detallado de la tasa de devolución por producto, que es un indicador clave de calidad.
+
+MOTIVOS COMUNES DE DEVOLUCIÓN EN ROPA
+
+- Talla incorrecta (35% de las devoluciones)
+- Color diferente al esperado (20%)
+- Defectos de fabricación (15%)
+- Cambio de opinión (15%)
+- Producto incorrecto enviado (10%)
+- Daño durante el transporte (5%)
+
+El análisis de estos motivos permite a los administradores identificar problemas recurrentes con proveedores, ajustar las guías de tallas en el catálogo, y mejorar la precisión de las descripciones de productos en el sistema.

@@ -1,0 +1,38 @@
+GESTIÓN DE USUARIOS Y ROLES EN KEEP CONTROL
+
+El módulo de gestión de usuarios de Keep Control permite administrar todas las cuentas del sistema, asignar roles y permisos, y mantener un control centralizado de quién puede acceder a cada funcionalidad.
+
+CREACIÓN DE USUARIOS
+
+Para crear un nuevo usuario, el administrador debe ingresar: nombre completo, documento de identidad, cargo, sucursal asignada, correo electrónico corporativo, número de teléfono, nombre de usuario (único en el sistema), y rol inicial. El sistema genera una contraseña temporal que el usuario debe cambiar en su primer inicio de sesión. Opcionalmente, se pueden configurar preguntas de seguridad para recuperación de contraseña.
+
+MODIFICACIÓN DE USUARIOS
+
+Los administradores pueden modificar en cualquier momento: datos personales del usuario, rol asignado (con registro en auditoría del cambio), sucursal de asignación, permisos adicionales (dentro del rol), estado de la cuenta (activo/inactivo/bloqueado), y límites operativos (monto máximo de descuento, número máximo de transacciones diarias).
+
+BAJA DE CUENTAS
+
+Cuando un empleado deja de trabajar en la tienda, el administrador debe desactivar su cuenta siguiendo este proceso: revisar que no haya transacciones pendientes asociadas al usuario, transferir las transacciones abiertas a otro usuario si es necesario, desactivar la cuenta (no se elimina para mantener integridad de auditoría), registrar el motivo de la baja en el sistema, y revocar cualquier sesión activa del usuario. Las cuentas desactivadas se conservan en el sistema con un marcador de "inactivo" y no pueden iniciar sesión ni realizar operaciones.
+
+ASIGNACIÓN DE PERMISOS
+
+Keep Control utiliza un modelo de permisos granulares. Cada módulo del sistema tiene las siguientes operaciones configurables:
+
+Crear: Permite agregar nuevos registros (ventas, productos, usuarios, etc.)
+Leer: Permite consultar información (solo visualización)
+Actualizar: Permite modificar registros existentes
+Eliminar: Permite eliminar registros (restringido a ciertos roles)
+Aprobar: Permite aprobar acciones que requieren verificación (ajustes de inventario, descuentos mayores)
+Exportar: Permite exportar datos y reportes
+
+Los roles predefinidos (administrador, gerente, vendedor, supervisor de bodega, auditor) vienen con configuraciones de permisos por defecto que pueden ser personalizadas según las necesidades específicas de la tienda.
+
+GESTIÓN DE CONTRASEÑAS
+
+El sistema implementa las siguientes políticas: longitud mínima de 8 caracteres, debe contener al menos una mayúscula, una minúscula, un número y un carácter especial, no puede ser igual a ninguna de las últimas 5 contraseñas, cambio obligatorio cada 90 días, y bloqueo después de 5 intentos fallidos de inicio de sesión.
+
+Además, los administradores pueden: restablecer la contraseña de cualquier usuario (generando una temporal), forzar el cambio de contraseña en el próximo inicio de sesión, y desbloquear cuentas bloqueadas por intentos fallidos.
+
+REPORTES DE USUARIOS
+
+El sistema permite generar reportes sobre: lista completa de usuarios activos e inactivos, usuarios por rol y sucursal, usuarios que no han iniciado sesión en los últimos 30 días, actividad reciente por usuario, y permisos asignados a cada rol.

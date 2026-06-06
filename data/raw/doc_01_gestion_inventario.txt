@@ -1,0 +1,25 @@
+GESTIÓN DE INVENTARIO PARA TIENDAS DE ROPA
+
+La gestión de inventario es el proceso de supervisar y controlar las existencias de productos en un almacén o tienda. Su objetivo principal es garantizar que haya suficiente stock para satisfacer la demanda de los clientes, minimizando al mismo tiempo los costos asociados al almacenamiento y la inversión en inventario. Para una tienda de ropa, esto implica manejar una amplia variedad de productos con diferentes tallas, colores, estilos y temporadas.
+
+MÉTODOS DE CONTROL DE INVENTARIO
+
+FIFO (First In, First Out): Este método asume que los productos que entran primero al inventario son los primeros en venderse. Es especialmente relevante para tiendas de ropa de temporada, donde las colecciones más antiguas deben venderse antes de que lleguen las nuevas. Por ejemplo, la colección de primavera-verano debe liquidarse antes de que llegue la colección de otoño-invierno para evitar pérdidas por obsolescencia.
+
+LIFO (Last In, First Out): Asume que los últimos productos en entrar son los primeros en salir. Aunque es menos común en tiendas de ropa debido a la naturaleza perecedera de la moda, puede aplicarse en ciertos contextos como productos básicos que no cambian con las temporadas.
+
+ABC: Este método clasifica los productos en tres categorías según su valor e importancia. Los productos A son los de mayor valor (generalmente el 20% de los productos que generan el 80% de los ingresos), como abrigos de diseñador o vestidos de gala. Los productos B son de valor medio, como camisas y pantalones de marca. Los productos C son de bajo valor pero alta rotación, como calcetines, ropa interior y accesorios básicos.
+
+MÉTRICAS CLAVE DE INVENTARIO
+
+Rotación de inventario: Indica cuántas veces se vende y repone el inventario en un período determinado. Una rotación alta indica buena gestión, mientras que una baja puede señalar productos obsoletos o sobre stock. Para tiendas de ropa, la rotación ideal varía según el tipo de prenda: los básicos rotan más rápido que las piezas de temporada.
+
+Días de inventario disponible: Mide cuántos días, en promedio, tarda un producto en venderse desde que llega al almacén. Este indicador ayuda a planificar reposiciones y evitar quiebres de stock.
+
+Nivel de servicio: Porcentaje de demanda que se satisface sin quiebres de stock. Un nivel de servicio del 95% significa que de cada 100 solicitudes de clientes, 95 se cumplen inmediatamente.
+
+IMPORTANCIA DE LA GESTIÓN DE INVENTARIO
+
+Una gestión eficiente del inventario permite a la tienda de ropa reducir costos de almacenamiento, evitar pérdidas por productos no vendidos (especialmente crítico en moda, donde las tendencias cambian rápidamente), mejorar el flujo de caja al no tener capital inmovilizado en exceso de stock, y aumentar la satisfacción del cliente al tener disponibles los productos que busca.
+
+Para el sistema Keep Control, la gestión de inventario se apoya en módulos de control de stock, alertas automáticas de niveles mínimos, y reportes detallados que permiten a los administradores tomar decisiones informadas sobre reposiciones, promociones y liquidaciones de temporada.

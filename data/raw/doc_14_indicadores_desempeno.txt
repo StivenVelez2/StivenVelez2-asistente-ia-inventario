@@ -1,0 +1,40 @@
+INDICADORES DE DESEMPEÑO (KPIs) PARA TIENDAS DE ROPA
+
+Keep Control incluye un módulo de indicadores clave de desempeño (KPIs) que permite a los administradores de tiendas de ropa monitorear la salud del negocio y tomar decisiones basadas en datos. Los KPIs se calculan automáticamente a partir de los datos de ventas, inventario y clientes.
+
+ROTACIÓN DE INVENTARIO
+
+La rotación de inventario mide cuántas veces se vende y repone el inventario en un período determinado. Se calcula como: Costo de los bienes vendidos / Inventario promedio. Para tiendas de ropa, una rotación saludable varía según el tipo de prenda:
+
+- Ropa básica (camisetas, calcetines, ropa interior): 6-8 veces al año
+- Ropa de moda (vestidos, blusas, pantalones de temporada): 4-6 veces al año
+- Ropa de alto valor (abrigos, trajes, vestidos de gala): 2-4 veces al año
+- Accesorios: 4-5 veces al año
+
+Una rotación muy baja indica exceso de inventario o productos de baja demanda; una rotación muy alta puede indicar que se está perdiendo ventas por falta de stock.
+
+MARGEN BRUTO
+
+El margen bruto mide la rentabilidad de las ventas después de descontar el costo de los productos. Se calcula como: (Ingresos por ventas - Costo de los bienes vendidos) / Ingresos por ventas x 100%. Para tiendas de ropa, el margen bruto ideal se encuentra entre el 50% y el 65%. Un margen inferior al 40% requiere revisión de precios o costos.
+
+TICKET PROMEDIO
+
+El ticket promedio mide el valor medio gastado por cliente en cada transacción. Se calcula como: Ventas totales / Número de transacciones. Estrategias para aumentar el ticket promedio incluyen: venta cruzada (sugerir accesorios que complementen la prenda), venta upsell (ofrecer versiones premium del producto) y promociones por volumen ("lleva 3 paga 2").
+
+PRODUCTOS MÁS VENDIDOS
+
+Este KPI identifica los productos con mayor volumen de ventas, tanto por unidades como por ingresos. El sistema genera rankings actualizados en tiempo real que permiten: identificar tendencias de moda emergentes, planificar reposiciones priorizando los productos más demandados, ajustar estrategias de marketing hacia los productos estrella, y detectar productos que están perdiendo popularidad.
+
+TASA DE DEVOLUCIÓN
+
+La tasa de devolución mide el porcentaje de productos vendidos que son devueltos. Se calcula como: (Unidades devueltas / Unidades vendidas) x 100%. Para tiendas de ropa, la tasa de devolución aceptable es inferior al 10%. Una tasa superior al 15% requiere investigación de causas: problemas de tallas, calidad de producto, o descripciones incorrectas en el catálogo.
+
+OTROS KPIs IMPORTANTES
+
+Cobertura de inventario (días): Días que durará el inventario actual al ritmo de ventas actual. Se calcula como: Inventario actual / Ventas diarias promedio. Para tiendas de ropa, una cobertura de 30-45 días es saludable para productos de temporada.
+
+Cumplimiento de presupuesto: Comparación entre ventas reales y presupuestadas para el período. Ayuda a identificar desviaciones tempranas y tomar acciones correctivas.
+
+Costo de mantener inventario: Costo total de almacenar productos, incluyendo espacio, seguros, personal y capital inmovilizado. Típicamente representa el 20-30% del valor del inventario anual.
+
+GMROI (Gross Margin Return on Investment): Retorno de la inversión en inventario. Mide cuánto margen bruto se genera por cada unidad monetaria invertida en inventario. Se calcula como: Margen bruto anual / Inversión promedio en inventario.

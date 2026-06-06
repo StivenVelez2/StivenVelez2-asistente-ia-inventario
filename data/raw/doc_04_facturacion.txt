@@ -1,0 +1,49 @@
+FACTURACIÓN EN EL SISTEMA KEEP CONTROL
+
+El módulo de facturación de Keep Control está diseñado para cumplir con la normativa colombiana vigente, incluyendo los requisitos de la DIAN para facturación electrónica. El sistema soporta diferentes tipos de factura y gestiona automáticamente el cálculo de impuestos, descuentos y totales.
+
+TIPOS DE FACTURA SOPORTADOS
+
+Factura de venta: Documento principal para registrar la venta de productos. Incluye todos los campos obligatorios y se genera tanto en formato físico como electrónico.
+
+Nota crédito: Utilizada para anular total o parcialmente una factura existente, típicamente en casos de devoluciones, descuentos posteriores a la facturación o correcciones.
+
+Nota débito: Incrementa el valor de una factura existente, utilizada cuando hay ajustes que aumentan el monto original (por ejemplo, cargos adicionales no incluidos inicialmente).
+
+Factura electrónica: Documento digital con validez legal que se envía a la DIAN en tiempo real y se entrega al cliente por correo electrónico.
+
+CAMPOS OBLIGATORIOS SEGÚN LA DIAN
+
+- Número de factura con prefijo y numeración consecutiva autorizada por la DIAN
+- Fecha y hora de emisión
+- Identificación del emisor (NIT, razón social, régimen tributario)
+- Identificación del adquiriente (NIT o cédula, nombre)
+- Lista detallada de productos: código, descripción, cantidad, valor unitario
+- Subtotal, descuentos, base gravable, IVA, total
+- Forma de pago (efectivo, tarjeta, transferencia)
+- Código QR con la representación gráfica del CUFE (Código Único de Factura Electrónica)
+- Número de autorización de la resolución DIAN
+
+IVA Y OTROS IMPUESTOS
+
+El sistema calcula automáticamente el IVA según la tarifa aplicable a cada producto. Para tiendas de ropa en Colombia, la tarifa general de IVA es del 19%, aunque algunos productos de la canasta familiar de ropa básica pueden tener tarifas diferenciales. El sistema también soporta:
+
+- IVA incluido en el precio (precio final al consumidor)
+- IVA discriminado en la factura
+- Exenciones de IVA para exportaciones
+- Retención en la fuente cuando aplica (según el tipo de cliente)
+
+NUMERACIÓN DE FACTURAS
+
+Cada punto de venta o sucursal tiene una numeración independiente autorizada por la DIAN. El sistema gestiona:
+
+- Prefijo único por punto de venta
+- Rango de numeración (inicio y fin según resolución DIAN)
+- Control de consecutivos, sin saltos ni duplicados
+- Notificación cuando se alcanza el 80% del rango autorizado
+
+FACTURA ELECTRÓNICA
+
+Keep Control implementa la factura electrónica conforme al decreto 2242 de 2015 y sus actualizaciones. El proceso incluye: generación del XML con la estructura técnica recomendada por la DIAN, firma digital del documento, envío al web service de la DIAN para validación, recepción del CUFE y representación gráfica, y entrega al cliente por correo electrónico y/o descarga desde el portal.
+
+El sistema mantiene un historial completo de todas las facturas emitidas, notas crédito y débito, permitiendo su consulta, reimpresión y envío en cualquier momento.

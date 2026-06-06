@@ -1,0 +1,39 @@
+REGISTRO DE VENTAS EN EL SISTEMA KEEP CONTROL
+
+El registro de ventas es el proceso medular del sistema Keep Control para tiendas de ropa. Cada transacción de venta debe quedar registrada con precisión para mantener la integridad del inventario, la contabilidad y la relación con el cliente.
+
+PROCESO DE REGISTRO DE VENTAS
+
+1. Selección de productos: El vendedor inicia una nueva venta en el sistema. Puede buscar productos por nombre, SKU, código de barras o categoría. El sistema muestra disponibilidad en tiempo real, incluyendo talla y color disponibles.
+
+2. Asignación de cantidades: Para cada producto seleccionado, se especifica la cantidad. El sistema valida automáticamente que haya stock suficiente. Si el stock es insuficiente, muestra una alerta y sugiere productos alternativos o tallas similares disponibles.
+
+3. Configuración de descuentos: Si aplica, el vendedor puede aplicar descuentos promocionales, descuentos por volumen o descuentos especiales autorizados. Cada descuento queda registrado con el código de autorización correspondiente.
+
+4. Selección del cliente: Se asocia la venta a un cliente existente en la base de datos, o se registra como venta sin identificación. Para clientes registrados, el sistema aplica automáticamente precios especiales si existen.
+
+5. Método de pago: El sistema acepta múltiples formas de pago: efectivo, tarjeta débito, tarjeta crédito, transferencia bancaria, o combinaciones. Para pagos con tarjeta, se registran los últimos 4 dígitos y el código de autorización.
+
+6. Generación de factura: Con todos los datos validados, el sistema genera la factura electrónica (o física si corresponde), actualiza el inventario descontando los productos vendidos, y registra la transacción en el histórico de ventas.
+
+7. Confirmación y entrega: La venta se confirma, se imprime el comprobante o se envía por correo electrónico al cliente, y se procede al empaque y entrega de los productos.
+
+CAMPOS REQUERIDOS EN EL REGISTRO
+
+- Fecha y hora de la transacción (automático)
+- Identificador único de venta (automático)
+- Vendedor responsable
+- Productos: SKU, nombre, talla, color, cantidad, precio unitario
+- Subtotal, descuentos, IVA, total
+- Método(s) de pago
+- Cliente (opcional: datos de contacto si es identificado)
+
+VALIDACIONES DEL SISTEMA
+
+- Stock disponible antes de confirmar
+- Precios actualizados (el sistema verifica promociones activas)
+- Límites de descuento por rol de usuario
+- Obligatoriedad de factura electrónica para ventas superiores a 5 UVT
+- Coherencia entre subtotal, descuentos, impuestos y total
+
+El sistema Keep Control registra cada venta en tiempo real, actualizando el inventario de forma inmediata y permitiendo a los administradores consultar el estado de las ventas en cualquier momento a través de reportes dinámicos.

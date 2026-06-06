@@ -1,0 +1,45 @@
+BÚSQUEDA DE PRODUCTOS EN KEEP CONTROL
+
+El módulo de búsqueda de productos de Keep Control permite encontrar rápida y eficientemente cualquier producto del catálogo, utilizando múltiples criterios y modos de búsqueda. Es una herramienta esencial tanto para vendedores como para administradores.
+
+FILTROS DE BÚSQUEDA AVANZADA
+
+Búsqueda por nombre: Búsqueda textual parcial o completa del nombre del producto. El sistema soporta búsqueda por coincidencia parcial (ej: "vest" encuentra "vestido", "vestidos", "vestido de noche") utilizando索引 de texto completo.
+
+Búsqueda por SKU: Búsqueda exacta o parcial del código SKU. Útil para vendedores que escanean códigos de barras o conocen el código interno del producto. Soporta búsqueda por prefijo (ej: "MUJ-VES" encuentra todos los vestidos de mujer).
+
+Búsqueda por código de barras: Escaneo o ingreso manual del código de barras EAN-13 del producto. Retorna el producto exacto asociado al código.
+
+Búsqueda por categoría: Navegación jerárquica por la taxonomía de productos. El usuario puede seleccionar categoría, subcategoría y tipo de producto progresivamente, viendo el conteo de productos en cada nivel.
+
+Búsqueda por talla: Filtro específico por talla disponible. Permite seleccionar una o varias tallas. Muestra solo productos que tienen stock en las tallas seleccionadas.
+
+Búsqueda por color: Filtro por color mediante selectores visuales (paleta de colores). Soporta selección múltiple y combinación con otros filtros.
+
+Búsqueda por precio: Rango de precio mínimo y máximo. Incluye opciones predefinidas como "Menos de $50,000", "$50,000 - $100,000", "$100,000 - $200,000", "Más de $200,000".
+
+Búsqueda por disponibilidad: Filtro para mostrar solo productos con stock disponible, productos agotados, productos con stock bajo (por debajo del punto de reorden), o productos sin movimiento.
+
+Búsqueda por temporada: Filtro por temporada del producto (primavera-verano, otoño-invierno, toda temporada).
+
+Búsqueda por proveedor: Permite filtrar productos de un proveedor específico.
+
+BÚSQUEDA FULL-TEXT
+
+Keep Control implementa búsqueda full-text que indexa los siguientes campos del producto: nombre, descripción, palabras clave, SKU, y nombre del proveedor. La búsqueda full-text soporta:
+
+- Búsqueda por palabras clave múltiples (ej: "vestido azul talla M")
+- Búsqueda por frase exacta usando comillas (ej: "vestido de noche negro")
+- Exclusión de términos con guión (ej: "vestido -corto" excluye vestidos cortos)
+- Priorización de resultados por relevancia (coincidencias en nombre tienen mayor peso que en descripción)
+- Corrección ortográfica básica (sugiere términos de búsqueda alternativos)
+
+RESULTADOS DE BÚSQUEDA
+
+Los resultados se muestran en una tabla dinámica con: imagen del producto (miniatura), nombre, SKU, categoría, tallas disponibles (con indicador de stock para cada talla), colores disponibles, precio actual, y estado del stock (disponible, bajo, agotado). Los resultados se pueden ordenar por precio (ascendente/descendente), nombre, fecha de creación, o relevancia.
+
+La búsqueda también muestra sugerencias de productos relacionados y productos complementarios (ej: al buscar "camisa", sugiere "pantalones" como complemento).
+
+BÚSQUEDA GUARDADA
+
+Los usuarios pueden guardar búsquedas frecuentes como favoritas para acceder rápidamente. Las búsquedas guardadas incluyen todos los filtros aplicados y se actualizan automáticamente con los nuevos productos que cumplan los criterios.

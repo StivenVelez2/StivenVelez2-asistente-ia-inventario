@@ -1,0 +1,36 @@
+CONTROL DE STOCK EN KEEP CONTROL
+
+El control de stock es una funcionalidad crítica del sistema Keep Control para tiendas de ropa. Permite mantener niveles óptimos de inventario, evitar quiebres de stock y minimizar el exceso de productos almacenados.
+
+NIVELES DE STOCK
+
+Stock máximo: Cantidad máxima de un producto que se debe mantener en inventario. Superar este nivel implica costos adicionales de almacenamiento y riesgo de obsolescencia, especialmente crítico en prendas de temporada. El stock máximo se calcula considerando la capacidad de almacenamiento, la rotación histórica y la estrategia comercial.
+
+Stock mínimo: Cantidad mínima de un producto que debe estar disponible antes de realizar un nuevo pedido al proveedor. Se calcula como el producto de la demanda diaria promedio por el tiempo de reposición, más un margen de seguridad.
+
+Punto de reorden: Nivel de inventario en el cual se debe generar automáticamente una orden de compra para reponer existencias. Se calcula con la fórmula: Punto de reorden = (Demanda diaria promedio x Tiempo de entrega del proveedor) + Stock de seguridad.
+
+Stock de seguridad: Inventario adicional que se mantiene como protección contra variaciones inesperadas en la demanda o retrasos en la entrega de proveedores. Para tiendas de ropa, el stock de seguridad debe ajustarse estacionalmente: mayor durante temporada alta (diciembre, junio, enero) y menor en temporada baja.
+
+ALERTAS AUTOMÁTICAS
+
+El sistema Keep Control genera alertas automáticas en los siguientes casos:
+
+Alerta de stock bajo: Cuando un producto alcanza el punto de reorden, el sistema envía una notificación al administrador de inventario sugiriendo realizar un pedido. La alerta incluye: nombre del producto, SKU, proveedor habitual, cantidad actual en stock, cantidad sugerida a pedir, y fecha estimada de llegada si se pide hoy.
+
+Alerta de sobre stock: Cuando un producto supera el stock máximo, especialmente si es de temporada, el sistema recomienda estrategias de descuento o liquidación.
+
+Alerta de productos sin movimiento: Productos que no han tenido ventas en los últimos 60 días. Para estos productos, el sistema sugiere evaluar su permanencia en el catálogo, aplicar descuentos de liquidación, o devolverlos al proveedor si aplica.
+
+Alerta de vencimiento próximo: Para productos con fecha de caducidad o que pierden valor por cambio de temporada (colecciones de moda), el sistema alerta con 30 y 15 días de anticipación.
+
+GESTIÓN DE STOCK POR VARIANTES
+
+En tiendas de ropa, cada producto puede tener múltiples variantes (talla, color). Keep Control gestiona el stock a nivel de variante, permitiendo:
+
+- Consultar disponibilidad por talla y color específicos
+- Recibir alertas por variante (no solo por producto general)
+- Transferir stock entre sucursales para equilibrar inventario
+- Identificar variantes de baja rotación para descontinuación
+
+El sistema también soporta inventarios cíclicos y conteos físicos programados, permitiendo ajustes de stock cuando se detectan diferencias entre el inventario teórico y el real, con registro detallado de quién realizó el ajuste y el motivo.
