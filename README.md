@@ -79,8 +79,6 @@ cp .env.example .env
 
 Edita el archivo `.env` y completa al menos una API key:
 - **Groq**: `GROQ_API_KEY=tu_api_key` 
-- **Google AI Studio**: `GOOGLE_API_KEY=tu_api_key`
-- **OpenRouter**: `OPENROUTER_API_KEY=tu_api_key`
 
 ### 5. Indexar documentos en la base vectorial
 
