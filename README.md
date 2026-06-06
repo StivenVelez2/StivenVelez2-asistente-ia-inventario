@@ -126,7 +126,7 @@ asistente_ia_inventario/
 ```
 
 ## Proyectos relacionados
-- Backend Keep Control: [URL repositorio 2]
+- Backend Keep Control: (https://github.com/StivenVelez2/backendkeepcontrol)
 - Frontend Keep Control: [URL repositorio 3]
 
 ## Integrantes
