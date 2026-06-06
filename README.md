@@ -138,4 +138,4 @@ asistente_ia_inventario/
 
 ## URL del repositorio
 
-
+https://github.com/StivenVelez2/StivenVelez2-asistente-ia-inventario
